@@ -52,7 +52,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_details);
 
-        tv = findViewById(R.id.textViewDDTitle);
+        tv = findViewById(R.id.textViewLTTitle);
         btn = findViewById(R.id.buttonLTBack);
         Intent it = getIntent();
         String title = it.getStringExtra("title");
