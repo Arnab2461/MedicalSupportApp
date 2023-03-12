@@ -70,16 +70,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="233dp"
-        android:layout_height="63dp"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
         android:text="Lab Test and Package "
-        android:textColor="#FFC107"
+        android:textColor="#E91E63"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.181" />
+        app:layout_constraintVertical_bias="0.171" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
