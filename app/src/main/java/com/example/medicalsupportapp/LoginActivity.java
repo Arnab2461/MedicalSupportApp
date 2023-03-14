@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LoginActivity.this,HomeActivity.class));
-                /*String username = edUsername.getText().toString();
+                String username = edUsername.getText().toString();
                 String password = edPassword.getText().toString();
                 Database db = new Database(getApplicationContext(),"MediCare",null,1);
 
@@ -52,8 +52,6 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"Invalid Username and Password",Toast.LENGTH_SHORT).show();
                     }
                 }
-
-                 */
             }
         });
 
