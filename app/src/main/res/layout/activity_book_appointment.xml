@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background"
+    android:background="@android:color/system_accent2_800"
     tools:context=".BookAppointmentActivity">
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="52dp"
         android:text="Select TIme"
         android:textAllCaps="false"
-        android:textColor="#3F51B5"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
 
@@ -29,10 +30,10 @@
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.845"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBookAppoinment"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees"
+        app:layout_constraintVertical_bias="0.852" />
 
     <EditText
         android:id="@+id/editTextAppFees"
@@ -51,7 +52,7 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,14 +78,14 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564" />
+        app:layout_constraintVertical_bias="0.55" />
 
     <EditText
         android:id="@+id/editTextAppAddress"
@@ -102,14 +103,14 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintVertical_bias="0.457" />
 
     <TextView
         android:id="@+id/textView"
@@ -130,16 +131,15 @@
         android:id="@+id/textViewAppTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Appointment"
+        android:text="BOOK APPOINMENT"
         android:textColor="@color/teal_700"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189" />
+        app:layout_constraintVertical_bias="0.195" />
 
     <EditText
         android:id="@+id/editTextAppFullName"
@@ -158,14 +158,14 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <Button
         android:id="@+id/buttonBookAppoinment"
@@ -175,21 +175,23 @@
         android:text="Book Appointment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.957" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="52dp"
         android:text="Select Date"
         android:textAllCaps="false"
-        android:textColor="#3F51B5"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
 
@@ -198,23 +200,29 @@
         style="?android:spinnerStyle"
         android:layout_width="91dp"
         android:layout_height="49dp"
-        android:layout_marginTop="16dp"
         android:drawableLeft="@drawable/calendar"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees"
+        app:layout_constraintVertical_bias="0.466" />
 
     <Button
         android:id="@+id/buttonAppTime"
         style="?android:spinnerStyle"
         android:layout_width="91dp"
         android:layout_height="49dp"
-        android:layout_marginTop="16dp"
         android:text="10:00"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees"
+        app:layout_constraintVertical_bias="0.466" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
