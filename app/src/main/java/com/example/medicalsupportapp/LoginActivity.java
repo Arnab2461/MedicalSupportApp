@@ -31,11 +31,12 @@ public class LoginActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String username = edUsername.getText().toString();
+                startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+                /*String username = edUsername.getText().toString();
                 String password = edPassword.getText().toString();
                 Database db = new Database(getApplicationContext(),"MediCare",null,1);
-                startActivity(new Intent(LoginActivity.this,HomeActivity.class));
-                /*if(username.length()==0 || password.length()==0){
+
+                if(username.length()==0 || password.length()==0){
                     Toast.makeText(getApplicationContext(),"Please fill all the details",Toast.LENGTH_SHORT).show();
                 }
                 else{
@@ -50,7 +51,9 @@ public class LoginActivity extends AppCompatActivity {
                     else{
                         Toast.makeText(getApplicationContext(),"Invalid Username and Password",Toast.LENGTH_SHORT).show();
                     }
-                }*/
+                }
+
+                 */
             }
         });
 

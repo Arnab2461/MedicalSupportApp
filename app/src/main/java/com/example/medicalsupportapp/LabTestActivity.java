@@ -21,7 +21,7 @@ public class LabTestActivity extends AppCompatActivity {
                     {"Package 2 : Blood Glucose Fasting", "", "", "", "299"},
                     {"Package 3 : COVID-19 Antibody - IgG", "", "", "", "899"},
                     {"Package 4 : Thyroid check", "", "", "", "499"},
-                    {"Package 1 : Immunity Check", "", "", "", "699"},
+                    {"Package 5 : Immunity Check", "", "", "", "699"},
             };
     private String[] package_details = {
             "Blood Glucose Fasting\n" +
@@ -84,7 +84,7 @@ public class LabTestActivity extends AppCompatActivity {
                 new int[]{R.id.line_a, R.id.line_b, R.id.line_c, R.id.line_d, R.id.line_e});
         listView.setAdapter(sa);
 
-        listView.setOnClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent it = new Intent(LabTestActivity.this, LabTestDetailsActivity.class);
@@ -93,7 +93,12 @@ public class LabTestActivity extends AppCompatActivity {
                 it.putExtra("text3", packages[i][4]);
                 startActivity(it);
             }
-
+        });
+        btnGoToCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LabTestActivity.this,CartLabActivity.class));
+            }
         });
     }
 }
