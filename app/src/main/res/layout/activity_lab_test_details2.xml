@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
-    tools:context=".LabTestActivity">
-
+    android:background="@drawable/back1"
+    tools:context=".LabTestDetailsActivity">
     <TextView
-        android:id="@+id/textViewLTName"
+        android:id="@+id/textViewDDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="24*7 Healthcare"
@@ -22,7 +21,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <TextView
-        android:id="@+id/textViewLTTitle"
+        android:id="@+id/textViewDDTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Deliver Location : Dhaka "
@@ -60,7 +59,7 @@
         android:id="@+id/buttonCartCheckout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Cart"
+        android:text="ADD TO CART"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.102"
@@ -69,7 +68,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <TextView
-        android:id="@+id/textViewCartTitle"
+        android:id="@+id/textView2"
         android:layout_width="225dp"
         android:layout_height="56dp"
         android:text="Lab Test and Package "
