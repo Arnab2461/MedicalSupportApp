@@ -11,12 +11,15 @@
         android:id="@+id/titleFindDoctor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MEDICARE"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_margin="12dp"/>
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="MEDICARE"
+        android:textColor="@color/teal"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/titleFindDoctorTop"
@@ -28,7 +31,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="12dp"
         android:text="Top Doctors"
-        android:textColor="@color/white"
+        android:textColor="@color/teal"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -49,7 +52,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -85,7 +88,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -121,7 +124,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -157,7 +160,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -193,7 +196,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -229,7 +232,7 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            app:cardBackgroundColor="@color/aqua"
+            app:cardBackgroundColor="@android:color/holo_blue_dark"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
