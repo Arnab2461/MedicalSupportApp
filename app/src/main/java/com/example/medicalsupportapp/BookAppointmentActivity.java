@@ -33,7 +33,7 @@ public class BookAppointmentActivity extends AppCompatActivity {
         ed2 = findViewById(R.id.editTextLTBAddress);
         ed3 = findViewById(R.id.editTextLTBContactNo);
         ed4 = findViewById(R.id.editTextLTBPincode);
-        dateButton = findViewById(R.id.buttonCartDate);
+        dateButton = findViewById(R.id.buttonAppDate);
         timeButton = findViewById(R.id.buttonAppTime);
         btnBook = findViewById(R.id.buttonLTBBook);
         btnBack = findViewById(R.id.buttonAppBack);
