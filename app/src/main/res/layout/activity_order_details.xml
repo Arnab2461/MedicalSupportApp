@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/textView_logo3"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:text= "24*7 Medicare"
-        android:textColor = "@color/purple_200"
-        android:textSize= "34sp"
-        android:textStyle= "bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDICARE"
+        android:textColor="@color/teal"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,11 +25,11 @@
         android:id="@+id/listViewOD"
         android:layout_width="344dp"
         android:layout_height="523dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.668" />
 
     <Button
         android:id="@+id/buttonODBack"
@@ -44,11 +44,11 @@
         app:layout_constraintVertical_bias="0.989" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewODtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Order Details"
-        android:textColor="#4CAF50"
+        android:textColor="@color/teal"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

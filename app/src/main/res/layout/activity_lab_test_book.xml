@@ -23,7 +23,7 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/design_default_color_secondary_variant"
         android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,7 +49,7 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/design_default_color_secondary_variant"
         android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,7 +74,7 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/teal_700"
         android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.094" />
 
     <TextView
-        android:id="@+id/textViewAppTitle"
+        android:id="@+id/textViewLTBTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fill All Details To Book"
@@ -129,7 +129,7 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/teal_700"
         android:textColorHint="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,14 +141,14 @@
 
     <Button
         android:id="@+id/buttonLTBBook"
-        android:layout_width="231dp"
-        android:layout_height="42dp"
-        android:background="@drawable/input_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintVertical_bias="0.781" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
