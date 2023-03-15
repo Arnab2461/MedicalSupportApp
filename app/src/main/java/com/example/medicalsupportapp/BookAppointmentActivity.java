@@ -29,13 +29,13 @@ public class BookAppointmentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_book_appointment);
 
         tv = findViewById(R.id.textViewAppTitle);
-        ed1 = findViewById(R.id.editTextAppFullName);
-        ed2 = findViewById(R.id.editTextAppAddress);
-        ed3 = findViewById(R.id.editTextAppContactNo);
-        ed4 = findViewById(R.id.editTextAppFees);
+        ed1 = findViewById(R.id.editTextLTBFullName);
+        ed2 = findViewById(R.id.editTextLTBAddress);
+        ed3 = findViewById(R.id.editTextLTBContactNo);
+        ed4 = findViewById(R.id.editTextLTBPincode);
         dateButton = findViewById(R.id.buttonCartDate);
         timeButton = findViewById(R.id.buttonAppTime);
-        btnBook = findViewById(R.id.buttonBookAppoinment);
+        btnBook = findViewById(R.id.buttonLTBBook);
         btnBack = findViewById(R.id.buttonAppBack);
 
         ed1.setKeyListener(null);
