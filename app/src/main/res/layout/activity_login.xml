@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@drawable/back2">
+    android:background="@color/cardview_dark_background">
 
     <EditText
         android:id="@+id/editTextTextLoginPassword"
@@ -22,8 +22,8 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/teal_700"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,8 +74,8 @@
         android:paddingEnd="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/purple_500"
-        android:textColorHint="@color/purple_500"
+        android:textColor="@color/teal"
+        android:textColorHint="@color/teal"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register for new user"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/teal"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
