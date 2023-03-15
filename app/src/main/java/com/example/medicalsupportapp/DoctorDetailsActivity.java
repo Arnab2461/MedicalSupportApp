@@ -17,28 +17,28 @@ import java.util.HashMap;
 public class DoctorDetailsActivity extends AppCompatActivity {
     private String[][] doctor_details1 =
             {
-                    {"Doctor Name : Arnab Sen1", "Hospital Address : CMC", "EXP : 10 yrs", "Mobile NO : 00000000000", "600"},
-                    {"Doctor Name : Ifaz Aiman1", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "600"}
+                    {"Doctor Name : Professor Dr. AKM Fazlul Hoque", "Hospital Address : DMC", "EXP : 25 yrs", "Mobile NO : 00000000000", "1400"},
+                    {"Doctor Name : Professor Dr. Mahbub H Khan", "Hospital Address : DMC", "EXP : 30 yrs", "Mobile NO : 10000000000", "1800"}
             };
     private String[][] doctor_details2 =
             {
-                    {"Doctor Name : Arnab Sen2", "Hospital Address : CMC", "EXP : 10 yrs", "Mobile NO : 00000000000", "600"},
-                    {"Doctor Name : Ifaz Aiman2", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "600"}
+                    {"Doctor Name : Nutritionist Ummy Salma Munni", "Hospital Address : DMC", "EXP : 15 yrs", "Mobile NO : 00000000000", "1300"},
+                    {"Doctor Name : Nutritionist Ummay Salma Tamanna", "Hospital Address : DMC", "EXP : 10 yrs", "Mobile NO : 10000000000", "1500"}
             };
     private String[][] doctor_details3 =
             {
-                    {"Doctor Name : Arnab Sen3", "Hospital Address : CMC", "EXP : 10 yrs", "Mobile NO : 00000000000", "600"},
-                    {"Doctor Name : Ifaz Aiman3", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "600"}
+                    {"Doctor Name : Prof. Dr. Md. Ruhul Amin", "Hospital Address : DMC", "EXP : 20 yrs", "Mobile NO : 00000000000", "1400"},
+                    {"Doctor Name : Dr. Md. Mosharraf Hossain Khandkar", "Hospital Address : DMC", "EXP : 18 yrs", "Mobile NO : 10000000000", "1100"}
             };
     private String[][] doctor_details4 =
             {
-                    {"Doctor Name : Arnab Sen4", "Hospital Address : CMC", "EXP : 10 yrs", "Mobile NO : 00000000000", "600"},
-                    {"Doctor Name : Ifaz Aiman4", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "600"}
+                    {"Doctor Name : Prof. Dr. S.M.G. Kibria.", "Hospital Address : DMC", "EXP : 12 yrs", "Mobile NO : 00000000000", "999"},
+                    {"Doctor Name : Dr. Md. Abdus Salam", "Hospital Address : DMC", "EXP : 14 yrs", "Mobile NO : 10000000000", "1200"}
             };
     private String[][] doctor_details5 =
             {
-                    {"Doctor Name : Arnab Sen5", "Hospital Address : CMC", "EXP : 10 yrs", "Mobile NO : 00000000000", "600"},
-                    {"Doctor Name : Ifaz Aiman5", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "600"}
+                    {"Doctor Name : Dr. Nurun Nahar Fatema.", "Hospital Address : DMC", "EXP : 12 yrs", "Mobile NO : 00000000000", "1500"},
+                    {"Doctor Name : Dr. Momenuzzaman.", "Hospital Address : DMC", "EXP : 1 yrs", "Mobile NO : 10000000000", "1400"}
             };
 
     TextView tv;
